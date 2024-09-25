@@ -1,6 +1,6 @@
 package month_enum;
 
-public class MonthEnum {
+public class MonthTester {
     public static void main(String[] args) {
         for (Month month : Month.values()) {
             if (month.name().endsWith("y")) {
